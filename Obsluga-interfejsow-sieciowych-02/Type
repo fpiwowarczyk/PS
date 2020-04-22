@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+case "$OSTYPE" in
+solaris*) echo "SOLARIS";;
+darwin*) echo "OSX";;
+linux*) echo "LINUX";;
+bsd*) echo "BDS";;
+*) echo "uknown: $OSTYPE";;
+esac
